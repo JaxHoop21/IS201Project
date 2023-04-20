@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+:root {
+     --primary-text: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("assets/img/10-terrifying-photographs-of-lightning-striking-2.jpg.webp");
+    background-size: 1538px;
+    padding: 0.75rem;
+}
+nav{
+    background-color: black;
+    text-align: start;
+}
+nav a {
+    color: lightgray;		
+    text-decoration: none;		  
+}
+h1 {
+    font-weight: bolder;
+	font-style: oblique
+}
+.tasklist {
+	padding-left: 0;		
+	list-style-type: none;
+		
+}
+.task {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: black;
+	box-shadow: blueviolet;
+	
+}
+.record{
+    justify-content: space-between !important;
+}
+.navaid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 300px;
+  border: 3px solid blue;
+}
+.p{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:azure;
+    font-size: 75px;
+}
+.warning img{
+    width: 100%;
+    display:flex; 
+	justify-content:center; 
+	align-items:center;
+}
+.video{
+    
+}
